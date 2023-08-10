@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap);
+
+@font-face {
+    font-family: Family New, sans-serif;
+    src: url(../fonts/RobotoCondensed-Regular.ttf)
+}
+
+body {
+    background-color: brown;
+    font-family: OpenSans, sans-serif;
+    color: beige;
+}
+
+.header {
+    padding: 40px 0px;
+}
+
+.spec_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header .spec_container{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    vertical-align: bottom;
+    width: 75px;
+    height: 75px;
+}
+
+.main_title_header, .big_title {
+    font-family: Family New, sans-serif;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+.menu {
+    margin-left: 150px;
+    display: flex;
+    list-style: none;
+}
+
+.menu_item{
+    margin-right: 120px;
+}
+
+.menu_item a{
+    font-size: 14px;
+    color: beige;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu_item a:hover{
+    border-bottom: 2px solid white;
+}
+
+/*Конец блока header*/
+.main_content{
+    padding-top: 18px;
+    padding-bottom: 30px;
+}
+
+.main_content_info{
+    max-width: 1200px;
+}
+
+.content_title{
+    font-family: Family New, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+}
+
+.content_text{
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 56px;
+    text-align: justify;
+}
+
+
+.main_content .spec_container .card{
+    color: black;
+}
+/*Начало блока section*/
+
+/*Конец блока section*/
+
+
+
+
+/*Начало блока footer*/
+.footer{
+    padding-top: 20px 0px;
+}
+
+.footer .spec_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_info{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 14px;
+}
+
+.footer_info .up_link{
+    font-size: 14px;
+    line-height: 20px;
+}
